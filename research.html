@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-89918118-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="student.html">Students</a></div>
+<div class="menu-item"><a href="services.html">Services</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research</h1>
+</div>
+<p>My research interests lie in the intersection of <b>machine learning</b> and <b>optimization</b>, as well as their applications on <b>data mining</b> and <b>biomedical data science</b>. </p>
+<p>In particular, my research focuses on answering the following three questions: </p>
+<ul>
+<li><p><b>Modeling</b>: How to build effective machine learning models to deal with the complex structure of data? </p>
+</li>
+<li><p><b>Optimization</b>: How to design efficient optimization algorithms to train machine learning models? </p>
+</li>
+<li><p><b>Application</b>: How to apply machine learning models to practical applications?</p>
+</li>
+</ul>
+<h2>Modeling: Machine/Deep Learning on Graphs</h2>
+<p>To have a well-performing machine learning model, a critical step is to capture the intrinsic structure of the data, such as the local correlation of pixels in the image data, the dependence between different words in the language data. 
+Different from these regular data, graph data encode more complicated relational information between different instances. Regular machine learning models fail to deal with the intrinsic relational information so that they cannot be applied to graph data directly.
+My research focus is to design new machine/deep learning models to effectively explore the relational information for graph data. </p>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p>Robust Self-Supervised Structural Graph Neural Network for Social Network Prediction. <br />
+Yanfu Zhang, <b>Hongchang Gao</b>, Jian Pei, Heng Huang. WWW 2022. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Conditional Random Field Enhanced Graph Convolutional Neural Networks.<br />
+<b>Hongchang Gao</b>, Jian Pei, Heng Huang. KDD 2019. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>ProGAN: Network Embedding via Proximity Generative Adversarial Network.<br />
+<b>Hongchang Gao</b>, Jian Pei, Heng Huang. KDD 2019. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Self-Paced Network Embedding.<br />
+<b>Hongchang Gao</b>, Heng Huang. KDD 2018. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Deep Attributed Network Embedding. <br />
+<b>Hongchang Gao</b>, Heng Huang. IJCAI 2018. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Local Centroids Structured Non-Negative Matrix Factorization. <br />
+<b>Hongchang Gao</b>, Feiping Nie, Heng Huang. AAAI 2017. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Multi-view Subspace Clustering. <br />
+<b>Hongchang Gao</b>, Feiping Nie, Xuelong Li, Heng Huang. ICCV 2015. <br /></p>
+</li>
+</ul>
+</div></div>
+<h2>Optimization: Large-Scale Optimization/Training Methods</h2>
+<p>After having a  machine learning model, a critical step is to optimize this model to get optimal model parameters. 
+Considering the scalability of models and datasets, my research is focusing on designing efficient stochastic optimization algorithms to train large-scale non-convex machine learning models. 
+In addition, deep neural networks are highly non-linear. They are easy to overfit and difficult to train. Besides optimization methods, I also work on designing efficient training methods for deep neural networks to avoid the overfitting issue and stabilize the training procedure. </p>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p>A Federated Stochastic Multi-level Compositional Minimax Algorithm for Deep AUC Maximization. <br /> 
+Xinwen Zhang#, Ali Payani, Myungjin Lee, Richard Souvenir, <b>Hongchang Gao</b>. ICML 2024.<br /></p>
+</li>
+</ul>
+<ul>
+<li><p>A Doubly Recursive Stochastic Compositional Gradient Descent Method for Federated Multi-Level Compositional Optimization. <br /> 
+<b>Hongchang Gao</b>. ICML 2024. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Decentralized Multi-Level Compositional Optimization Algorithms with Level-Independent Convergence Rate. <br />
+<b>Hongchang Gao</b>. AISTATS 2024. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Federated Compositional Deep AUC Maximization. <br />
+Xinwen Zhang*#, Yihan Zhang*#, Tianbao Yang, Richard Souvenir, <b>Hongchang Gao</b>. NeurIPS 2023.<br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Communication-Efficient Stochastic Gradient Descent Ascent with Momentum Algorithms. <br />
+Yihan Zhang#, Meikang Qiu, <b>Hongchang Gao</b>. IJCAI 2023. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>On the Convergence of Distributed Stochastic Bilevel Optimization Algorithms over a Network. <br />
+<b>Hongchang Gao</b>, Bin Gu, My T. Thai. AISTATS 2023. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>On the Convergence of Local Stochastic Compositional Gradient Descent with Momentum. <br />
+<b>Hongchang Gao</b>, Junyi Li, Heng Huang. ICML2022. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Gradient-Free Method for Heavily Constrained Nonconvex Optimization. <br />
+Wanli Shi, <b>Hongchang Gao</b>, Bin Gu. ICML2022. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Efficient Decentralized Stochastic Gradient Descent Method for Nonconvex Finite-Sum Optimization Problems. <br />
+Wenkang Zhan, Gang Wu, <b>Hongchang Gao</b>. AAAI 2022. <br />  </p>
+</li>
+</ul>
+<ul>
+<li><p>Fast Training Method for Stochastic Compositional Optimization Problems. <br />
+<b>Hongchang Gao</b>, Heng Huang. NeurIPS 2021. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Sample Efficient Decentralized Stochastic Frank-Wolfe Methods for Continuous DR-Submodular Maximization. <br />
+<b>Hongchang Gao</b>, Hanzi Xu, Slobodan Vucetic. IJCAI 2021. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>On the Convergence of Stochastic Compositional Gradient Descent Ascent Method. <br />
+<b>Hongchang Gao</b>, Xiaoqian Wang, Lei Luo, Mindy Shi. IJCAI 2021. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>On the Convergence of Communication-Efficient Local SGD for Federated Learning. <br />
+<b>Hongchang Gao</b>, An Xu, Heng Huang. AAAI 2021. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Provable Distributed Stochastic Gradient Descent with Delayed Updates. <br />
+<b>Hongchang Gao</b>, Gang Wu, Ryan Rossi. SDM 2021. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Faster Stochastic Second Order Method for Large-scale Machine Learning Models. <br />
+<b>Hongchang Gao</b>, Heng Huang. SDM 2021.<br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Can Stochastic Zeroth-Order Frank-Wolfe Method Converge Faster for Non-Convex Problems? <br />
+<b>Hongchang Gao</b>, Heng Huang. ICML 2020. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Demystifying Dropout. <br />
+<b>Hongchang Gao</b>, Jian Pei, Heng Huang. ICML 2019. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Stochastic Second-Order Method for Large-Scale Nonconvex Sparse Learning Models.<br />
+<b>Hongchang Gao</b>, Heng Huang. IJCAI 2018. <br /></p>
+</li>
+</ul>
+</div></div>
+<h2>Application: Biomedical Data Science &amp; Online Advertising</h2>
+<p>Besides the methodology side,  I am also interested in applying machine learning to other fields, such as bioinformatics, online advertising. 
+To design effective machine learning models for practical applications, it is important to incorporate the domain-specific knowledge. 
+To bridge the gap between general machine learning models and the domain-specific application, my research work is to design new machine/deep learning models to fully exploit domain knowledge for better prediction. </p>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p>New Robust Clustering Model for Identifying Cancer Genome Landscapes. <br />
+<b>Hongchang Gao</b>*, Xiaoqian Wang*, Heng Huang. ICDM 2016. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Anatomical Annotations for Drosophila Gene Expression Patterns via Multi-Dimensional Visual Descriptors Integration: Multi-Dimensional Feature Learning. <br />
+<b>Hongchang Gao</b>, Lin Yan, Weidong Cai, Heng Huang. KDD 2015. <br /> </p>
+</li>
+</ul>
+<ul>
+<li><p>Identifying Connectome Module Patterns via New Balanced Multi-graph Normalized Cut. <br />
+<b>Hongchang Gao</b>, Chengtao Cai, Jingwen Yan, Lin Yan, Joaquín Goñi Cortes, Yang Wang, Feiping Nie, John D. West, Andrew J. Saykin, Li Shen, Heng Huang. MICCAI 2015. <br /></p>
+</li>
+</ul>
+<ul>
+<li><p>Attention Convolutional Neural Network for Advertiser-level Click-through Rate Forecasting. <br />
+<b>Hongchang Gao</b>, Deguang Kong, Miao Lu, Xiao Bai, Jian Yang. WWW 2018. <br /></p>
+</li>
+</ul>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2025-03-10 21:19:18 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=EtsHne_TmseW5ch0xFRAaUP05lfRyCetP-g76VSS0gA"></script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("|");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
